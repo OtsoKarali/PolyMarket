@@ -3,6 +3,11 @@ node_modules/
 venv/
 env/
 .venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 
 # IDE
 .vscode/
@@ -23,4 +28,16 @@ Thumbs.db
 dist/
 build/
 *.log
+*.egg-info/
 
+# Database
+*.db
+*.sqlite
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
